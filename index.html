@@ -5,71 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator Simple</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
-    <div>
-        <form name="calculator">
-            Calculator<br>
-            <input type="text"
-                   class="">
-            <input type="button"
-                   name="btnc"
-                   value="C"
-                    > <br>
-            <input type="button"
-                   name="btn7"
-                   value="7">
-            <input type="button" 
-                   name="btn8"
-                   value="8">
-            <input type="button" 
-                   name="btn9"
-                   value="9">
-            <input type="button" 
-                   name="btn/"
-                   value="/">
-                   <br>
-            <input type="button"
-                   name="btn4"
-                   value="4">
-            <input type="button"
-                   name="btn5"
-                   value="5">
-            <input type="button"
-                   name="btn6"
-                   value="6">
-            <input type="button"
-                   name="btnx"
-                   value="x"
-                   ><br>
-            <input type="button"
-                   name="btn1"
-                   value="1">
-            <input type="button"
-                    name="btn2"
-                    value="2">
-            <input type="button"
-                   name="btn3"
-                   value="3">
-            <input type="button"
-                   name="btn-"
-                   value="-">
-                   <br>
-            <input type="button"
-                   name="btn."
-                   value=".">
-            <input type="button"
-                    name="btn0"
-                    value="0">
-            <input type="button"
-                    name="btn="
-                    value="=">
-            <input type="button"
-                   name="btn+"
-                   value="+"><br>
-              
-        </form>
+    <div class="title">
+        <h1>Calculator</h1>
     </div>
+    <form 
+        class="calculator" 
+        name="calculator"
+    >
+        <div class="row__display">
+            <p class="display">0</p>
+            <input type="button"
+                name="btnclear"
+                value="AC"
+                class="clear"
+            >
+        </div>
+        <div class="buttons">
+            <div class="buttons__row">
+                <input type="button"
+                name="btn7"
+                value="7"
+                class="row__button">
+                <input type="button" 
+                name="btn8"
+                value="8"
+                class="row__button"
+                >
+                <input type="button" 
+                name="btn9"
+                value="9"
+                class="row__button">
+                <input type="button" 
+                name="btn/"
+                value="/"
+                class="row__button">
+            </div>
+            <div class="buttons__row">
+                <input type="button"
+                name="btn4"
+                value="4">
+                <input type="button"
+                name="btn5"
+                value="5">
+                <input type="button"
+                name="btn6"
+                value="6">
+                <input type="button"
+                name="btnx"
+                value="x"
+                >
+            
+            </div>
+            <div class="buttons__row">
+                <input type="button"
+                name="btn1"
+                value="1">
+                <input type="button"
+                name="btn2"
+                value="2">
+                <input type="button"
+                name="btn3"
+                value="3">
+                <input type="button"
+                name="btn-"
+                value="-">
+                
+            </div>
+            <div class="buttons__row">
+                <input type="button"
+                name="btn."
+                value=".">
+                <input type="button"
+                name="btn0"
+                value="0">
+                <input type="button"
+                name="btn="
+                value="=">
+                <input type="button"
+                name="btn+"
+                value="+">
+            </div>
+        </div>
+    </form>
 </body>
 </html>
