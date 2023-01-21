@@ -5,90 +5,153 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculator Simple</title>
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="./assets/js/script.js"></script>
 </head>
 <body>
-    <div class="title">
+    <div class="fundo">
+        <h5>Desenvolvido por Mônica Didoff</h5>
         <h1>Calculator</h1>
+        
+        
     </div>
     <form 
-        class="calculator" 
+        class="calculator"
         name="calculator"
-    >
+        >
         <div class="row__display">
-            <p class="display">0</p>
+            <p class="display"id="resultado">0</p>
+          
+        
             <input type="button"
                 name="btnclear"
                 value="AC"
-                class="clear"
-            >
+                class="clean"
+                id="clean"
+                onclick="clean">
+
+                <input type="button"
+                name="btnback"
+                value="CE"
+                class="clean"
+                id=""
+                onclick="">
+
+
         </div>
         <div class="buttons">
+       
+            
+        
+            
+                
             <div class="buttons__row">
                 <input type="button"
                 name="btn7"
                 value="7"
-                class="row__button">
+                class="row__button1"
+                onclick="insert('7')">
+                
                 <input type="button" 
                 name="btn8"
                 value="8"
-                class="row__button"
-                >
+                class="row__button1"
+                onclick="insert('8')">
+                
                 <input type="button" 
                 name="btn9"
                 value="9"
-                class="row__button">
+                class="row__button1"
+                onclick="insert('9')">
+
                 <input type="button" 
                 name="btn/"
                 value="/"
-                class="row__button">
+                class="row__button2"
+                onclick="insert('/')">
             </div>
             <div class="buttons__row">
                 <input type="button"
                 name="btn4"
-                value="4">
+                value="4"
+                class="row__button1"
+                onclick="insert('4')">
+
                 <input type="button"
                 name="btn5"
-                value="5">
+                value="5"
+                class="row__button1"
+                onclick="insert('5')">
+
                 <input type="button"
                 name="btn6"
-                value="6">
+                value="6"
+                class="row__button1"
+                onclick="insert('6')">
+
                 <input type="button"
                 name="btnx"
                 value="x"
-                >
+                class="row__button2"
+                onclick="insert('x')">
             
             </div>
             <div class="buttons__row">
                 <input type="button"
                 name="btn1"
-                value="1">
+                value="1"
+                class="row__button1"
+                onclick="insert('1')">
+
                 <input type="button"
                 name="btn2"
-                value="2">
+                value="2"
+                class="row__button1"
+                onclick="insert('2')">
+
                 <input type="button"
                 name="btn3"
-                value="3">
+                value="3"
+                class="row__button1"
+                onclick="insert('3')">
+
                 <input type="button"
                 name="btn-"
-                value="-">
+                value="-"
+                class="row__button2"
+                onclick="insert('-')">
                 
             </div>
             <div class="buttons__row">
                 <input type="button"
                 name="btn."
-                value=".">
+                value="."
+                class="row__button2"
+                onclick="insert('.')">
+
                 <input type="button"
                 name="btn0"
-                value="0">
+                value="0"
+                class="row__button2"
+                onclick="insert('0')">
+
                 <input type="button"
                 name="btn="
-                value="=">
+                value="="
+                class="row__button2"
+                onclick="insert('=')">
+
                 <input type="button"
                 name="btn+"
-                value="+">
+                value="+"
+                class="row__button2"
+                onclick="insert('+')">
             </div>
+            
         </div>
     </form>
+    
+   
 </body>
+
 </html>

@@ -1,0 +1,98 @@
+.fundo{
+   color: white;
+   background-image: linear-gradient(45deg, black, crimson);
+   height: 100vh;
+   font-family: Arial, Helvetica, sans-serif;
+   text-align: center;
+}
+.calculator{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 1);
+    top: 50%;
+    left : 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    padding: 15px;}
+
+
+.display{
+    background-color: white;
+    width: 207px;
+    height: 50px;
+    margin: 5px;
+    font-size: 25px;
+    color: black;
+    text-align: right;
+}
+.clean{ 
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px, 20px, 10px, 20px ;
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 49px;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    border: 1px, 0px, 0px, 1px;
+    border-radius: 15px;
+    border-color: rgb(238, 232, 232);
+    align-self: stretch;
+    flex: none;
+    flex-grow: 0;
+    order: 1;
+    margin: 1;
+}    
+.row__button1{
+    
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    left: 50px;
+    padding: 10px, 20px, 10px, 20px;
+    font-size: 40px;
+    font-weight: 700, bold;
+    line-height: 49px;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    background-color: #b58E2B;
+    border-radius: 15px;
+    border-color: rgb(238, 232, 232);
+    margin: 1px;}
+    
+
+.row__button2{
+
+    flex-direction: column;
+    justify-content:center;
+    align-content: center;
+    width: 50px;
+    height: 50px;
+    padding: 10px, 20px, 10px, 20px ;
+    font-size: 25px;
+    font-weight: 700px;
+    line-height: 49px;
+    color: #FFFFFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    cursor: pointer;
+    background-color: rgb(31, 31, 31);
+    
+    border-radius: 15px;
+    border-color: rgb(238, 232, 232);
+    margin: 1px;}
+    
+
+.clean:hover{background-color: black;}   
+
+.row__button1:hover{background-color: #CC894C;}
+
+.row__button2:hover{background-color: black;}
+
+
